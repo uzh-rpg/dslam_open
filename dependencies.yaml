@@ -1,0 +1,57 @@
+repositories:
+  catkin_simple:
+    type: git
+    url: git@github.com:catkin/catkin_simple.git
+    version: master
+  ceres_catkin:
+    type: git
+    url: git@github.com:ethz-asl/ceres_catkin.git
+    version: master
+  DBoW2:
+    type: git
+    url: git@github.com:uzh-rpg/DBoW2.git
+    version: master
+  dlib_catkin:
+    type: git
+    url: git@github.com:uzh-rpg/dlib_catkin.git
+    version: master
+  eclipsify:
+    type: git
+    url: git@github.com:ethz-asl/eclipsify.git
+    version: master
+  eigen_catkin:
+    type: git
+    url: git@github.com:ethz-asl/eigen_catkin.git
+    version: master
+  eigen_checks:
+    type: git
+    url: git@github.com:ethz-asl/eigen_checks.git
+    version: master
+  gflags_catkin:
+    type: git
+    url: git@github.com:ethz-asl/gflags_catkin.git
+    version: master
+  glog_catkin:
+    type: git
+    url: git@github.com:ethz-asl/glog_catkin.git
+    version: master
+  minkindr:
+    type: git
+    url: git@github.com:ethz-asl/minkindr.git
+    version: master
+  minkindr_ros:
+    type: git
+    url: git@github.com:ethz-asl/minkindr_ros.git
+    version: master
+  ORB_SLAM2:
+    type: git
+    url: git@github.com:uzh-rpg/ORB_SLAM2.git
+    version: master
+  pangolin_catkin:
+    type: git
+    url: git@github.com:uzh-rpg/pangolin_catkin.git
+    version: master
+  protobuf_catkin:
+    type: git
+    url: git@github.com:ethz-asl/protobuf_catkin.git
+    version: master

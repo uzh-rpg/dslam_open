@@ -12,7 +12,7 @@ This is the code for the 2018 ICRA paper **Data-Efficient Decentralized Visual S
   note          = {to appear}
 }
 ```
-If you use any of this code, please cite that publication.
+You can find a pdf of the paper [here](http://rpg.ifi.uzh.ch/docs/ICRA18_Cieslewski.pdf). If you use any of this code, please cite this publication.
 
 ## Downloads
 

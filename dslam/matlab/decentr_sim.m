@@ -81,7 +81,7 @@ root = [dataset_path '/' sequence_id '/'];
 dpath = [root 'dslam/'];
 %% Launch geometric verification server (once!)
 % Launch the verification_request_server executable from pwd with args
-% temp_request.txt temp_result.txt temp_lock.txt --scaled
+% temp_request.txt temp_result.txt temp_lock.txt
 
 %% Get stream and launch parpool.
 load([dpath 'decentr_stream_' num2str(num_robots) '_robots.mat']);

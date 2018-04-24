@@ -21,7 +21,7 @@
 % You should have received a copy of the GNU General Public License
 % along with dslam_open. If not, see <http://www.gnu.org/licenses/>.
 
-function [accuracy, decentr_state] = evalAccuracy(
+function [accuracy, decentr_state] = evalAccuracy(...
     decentr_state, opt_handle, time)
 
 % Structure:

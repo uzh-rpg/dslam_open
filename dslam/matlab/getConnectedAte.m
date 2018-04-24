@@ -1,4 +1,4 @@
-function [num_frames, connected_ate, decentr_st% Copyright (C) 2017-2018 Titus Cieslewski, RPG, University of Zurich, 
+% Copyright (C) 2017-2018 Titus Cieslewski, RPG, University of Zurich, 
 %   Switzerland
 %   You can contact the author at <titus at ifi dot uzh dot ch>
 % Copyright (C) 2017-2018 Siddharth Choudhary, College of Computing,
@@ -21,7 +21,7 @@ function [num_frames, connected_ate, decentr_st% Copyright (C) 2017-2018 Titus C
 % You should have received a copy of the GNU General Public License
 % along with dslam_open. If not, see <http://www.gnu.org/licenses/>.
 
-ate] = getConnectedAte(...
+function [num_frames, connected_ate, decentr_state] = getConnectedAte(...
     decentr_state, group)
 %% Poses to positions ground truth.
 p_gt_C = [];

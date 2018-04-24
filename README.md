@@ -8,8 +8,7 @@ This is the code for the 2018 ICRA paper **Data-Efficient Decentralized Visual S
   title         = {Data-Efficient Decentralized Visual {SLAM}},
   journal       = {{IEEE} Int. Conf. Robot. Autom. ({ICRA})},
   year          = 2018,
-  month         = may,
-  note          = {to appear}
+  month         = may
 }
 ```
 You can find a pdf of the paper [here](http://rpg.ifi.uzh.ch/docs/ICRA18_Cieslewski.pdf). If you use any of this code, please cite this publication.

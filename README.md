@@ -1,5 +1,7 @@
 # Data-Efficient Decentralized Visual SLAM
 
+![dslam](doc/dslam.gif)
+
 This is the code for the 2018 ICRA paper **Data-Efficient Decentralized Visual SLAM** by [Titus Cieslewski](http://rpg.ifi.uzh.ch/people_titus.html), [Siddharth Choudhary](https://www.cc.gatech.edu/~choudhar/) and [Davide Scaramuzza](http://rpg.ifi.uzh.ch/people_scaramuzza.html):
 ```bibtex
 @Article{Cieslewski18icra,
@@ -127,7 +129,7 @@ If you are running inside the `dslam/matlab` directory, the `verification_reques
 
      ../../../../devel/lib/dslam/verification_request_server temp_request.txt temp_result.txt temp_lock.txt
 
-Execute up until and with the `runSimulationAndSave()` command. This command will run the simulation and give you live visual feedback like this:
+Execute up until and with the `runSimulationAndSave()` command. This command will run the simulation and give you live visual feedback like this (see also gif on top of readme):
 
 ![viz](doc/viz.png)
 

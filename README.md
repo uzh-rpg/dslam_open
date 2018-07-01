@@ -27,9 +27,11 @@ You can find a pdf of the paper [here](http://rpg.ifi.uzh.ch/docs/ICRA18_Cieslew
 
 ### C++
 
-Install the [ROS ecosystem](http://wiki.ros.org/ROS/Installation). This has been developed with ROS version [Jade](http://wiki.ros.org/jade) under Ubuntu 14.04. Minimal installation will do. Next, install [catkin tools](http://catkin-tools.readthedocs.org/en/latest/installing.html) and [vcstool](https://github.com/dirk-thomas/vcstool):
+Install the [ROS ecosystem](http://wiki.ros.org/ROS/Installation). This has been developed with ROS version [Jade](http://wiki.ros.org/jade) under Ubuntu 14.04. Minimal installation will do. Next, install [catkin tools](http://catkin-tools.readthedocs.org/en/latest/installing.html), [vcstool](https://github.com/dirk-thomas/vcstool), OpenCV-nonfree dev, autoconf and libglew-dev:
 
-    sudo apt-get install python-catkin-tools python-vcstool
+    sudo add-apt-repository --yes ppa:xqms/opencv-nonfree # Maybe not necessary for Ubuntu > 14.04?
+    sudo apt-get update
+    sudo apt-get install python-catkin-tools python-vcstool libopencv-nonfree-dev autoconf libglew-dev
 
     # Create a new catkin workspace if needed:
     mkdir -p my_ws/src

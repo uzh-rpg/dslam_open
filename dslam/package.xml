@@ -22,7 +22,6 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with dslam_open. If not, see <http://www.gnu.org/licenses/>.
 -->
-<?xml version="1.0"?>
 <package format="2">
   <name>dslam</name>
   <version>0.0.0</version>

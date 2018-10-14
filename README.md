@@ -1,6 +1,6 @@
 # Data-Efficient Decentralized Visual SLAM
 
-![dslam](doc/dslam.gif)
+![dslam](doc/dslam_5x.gif)
 
 This is the code for the 2018 ICRA paper **Data-Efficient Decentralized Visual SLAM** by [Titus Cieslewski](http://rpg.ifi.uzh.ch/people_titus.html), [Siddharth Choudhary](https://www.cc.gatech.edu/~choudhar/) and [Davide Scaramuzza](http://rpg.ifi.uzh.ch/people_scaramuzza.html):
 ```bibtex

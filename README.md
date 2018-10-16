@@ -2,7 +2,7 @@
 
 ![dslam](doc/dslam_5x.gif)
 
-This is the code for the 2018 ICRA paper **Data-Efficient Decentralized Visual SLAM** by [Titus Cieslewski](http://rpg.ifi.uzh.ch/people_titus.html), [Siddharth Choudhary](https://www.cc.gatech.edu/~choudhar/) and [Davide Scaramuzza](http://rpg.ifi.uzh.ch/people_scaramuzza.html):
+This is the code for the 2018 ICRA paper **Data-Efficient Decentralized Visual SLAM** by [Titus Cieslewski](http://rpg.ifi.uzh.ch/people_titus.html), [Siddharth Choudhary](http://itzsid.github.io) and [Davide Scaramuzza](http://rpg.ifi.uzh.ch/people_scaramuzza.html):
 ```bibtex
 @Article{Cieslewski18icra,
   author        = {Titus Cieslewski and Siddharth Choudhary and Davide

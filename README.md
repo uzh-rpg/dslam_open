@@ -15,7 +15,7 @@ This is the code for the 2018 ICRA paper **Data-Efficient Decentralized Visual S
 ```
 You can find a pdf of the paper [here](http://rpg.ifi.uzh.ch/docs/ICRA18_Cieslewski.pdf). If you use any of this code, please cite this publication.
 
-You might be looking for python/tensorflow implementation, which is also tied to that publication. Find that one [here](https://github.com/uzh-rpg/netvlad_tf_open).
+You might be looking for the python/tensorflow implementation of NetVLAD, which is also tied to that publication. Find that one [here](https://github.com/uzh-rpg/netvlad_tf_open).
 
 ## Downloads
 

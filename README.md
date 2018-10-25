@@ -15,6 +15,8 @@ This is the code for the 2018 ICRA paper **Data-Efficient Decentralized Visual S
 ```
 You can find a pdf of the paper [here](http://rpg.ifi.uzh.ch/docs/ICRA18_Cieslewski.pdf). If you use any of this code, please cite this publication.
 
+You might be looking for python/tensorflow implementation, which is also tied to that publication. Find that one [here](https://github.com/uzh-rpg/netvlad_tf_open).
+
 ## Downloads
 
 | File     | Size | Description   | sha1 |
@@ -104,6 +106,8 @@ All subsequent steps will take place in the Matlab script `dslam/matlab/decentr_
 Note that `dvpr_train_path` is the path containing NetVLAD features to be used for the clustering of the NetVLAD space used by decentralized visual place recognition. See the [corresponding paper](http://rpg.ifi.uzh.ch/docs/MRS17_Cieslewski.pdf) for detailed insight. As features, we used a random bunch of features extracted from several sequences of the [Oxford RobotCar](http://robotcar-dataset.robots.ox.ac.uk) dataset. These features are available as download and we recommend you use them as well. Alternatively, you can have the variable point to any folder containing several `.bin` files with NetVLAD output, representing your NetVLAD clustering training dataset.
 
 ### Parse NetVLAD descriptors for the dataset
+
+Note: This is done with the Matlab implementation of NetVLAD for dslam. If you are looking for the python/tensorflow implementation of NetVLAD that is also tied to this publication, you will find it [here](https://github.com/uzh-rpg/netvlad_tf_open).
 
 This step takes quite some time (10 minutes on KITTI 00 with an NVIDIA GT 1060), so consider using the provided file instead. If you still want to run this yourself, in `decentr_sim.m`, execute the section `%% Generate NetVLAD vectors for dataset`. Note that this requires NetVLAD weights. We used `vd16_pitts30k_conv5_3_vlad_preL2_intra_white.mat` provided [here](http://www.di.ens.fr/willow/research/netvlad/). Once the parsing is complete, the file `netvlad_feats.bin` will appear in `<DATASET SEQUENCE ROOT>/dslam/`.
 
